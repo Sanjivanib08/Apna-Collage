@@ -1,0 +1,105 @@
+*{
+    font-size: large;
+    color: crimson;
+
+    
+}
+.container{
+
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(8,1fr);
+
+    
+}
+.header{
+    background-color: #016A70;
+    grid-column: 1/span 4;
+    color: white;
+}
+.nav{
+    grid-column: 1/span 4;
+    grid-row: 2;
+    background-color:#FFFFDD ;
+
+}
+.green{
+    grid-column: 1/span 4;
+    grid-row: 3;
+    background-color:#D2DE32;
+    height: 80%;
+}
+.white{
+    grid-column: 1/span 4;
+    background-color:#A2C579;
+
+}
+.purple{
+    grid-column: 1/span 4;
+    background-color:white;
+}
+.orange{
+    grid-column: 1/span 4;
+    background-color:orange;
+}
+.footer{
+    grid-column: 1/span 4;
+    background-color:#016A70;
+    color: white;
+}
+.flex{
+
+    background-color: gray;
+    /* border: 2px solid black; */
+    /* display: flex; */
+
+    align-items: center;
+    justify-content: space-around;
+    margin: 4px;
+    height: 40px;
+    width: 40px;
+   
+}
+.one{
+    /* height: 40px;
+    width: 40px; */
+}
+.two{
+    /* height: 15px;
+    width: 60px; */
+}
+.one{
+    height: 10px;
+    width: 100px;
+    background-color: gray;
+    margin: 5px auto;
+
+}
+.two, .three{
+    height: 50px;
+    width: 70px;
+    background-color: gray;
+    
+    /* display: inline-block; */
+    display: flex;
+    align-items: center;
+    margin: 5px auto;
+    justify-content: space-between;  
+
+}
+
+.purple div{
+    height: 80px;
+    width: 50px;
+}
+
+ #box{
+    height: 30px;
+    width: 60px;
+    background-color: gray;
+    display: block;
+    margin: 10px auto;
+
+}
